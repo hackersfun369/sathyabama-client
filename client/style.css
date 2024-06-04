@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#831238;
+    width: 100%;
+    height: 130px;
+    top: 0;
+    z-index: 998;
+}
+.sathyabama-img{
+    float: left;
+    margin: 0;
+}
+.profile-img{
+    float: right;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.nav-username{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    float: right;
+    margin-right: 30px;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+#user{
+    padding: 10px;
+    border-radius: 50%;
+    color: #831238;
+    background-color: white;
+}
+.schools-container{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 180px;
+    margin: 20px;
+    width: 100%;
+
+}
+.search{
+    position:fixed;
+    left: 40%;
+    top: 40px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 999;
+}
+.username-in,.school1{
+font-size: 5px;
+height: 2px;
+}
+.search-in{
+    width: 450px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.search-icon{
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.school{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 500px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    height: 100px;
+    border: 2px solid lightgray;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.school a{
+    color: #831238;
+    font-size: 18px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.school img{
+    border-radius: 20px;
+    margin: 0;
+}
+.school:hover{
+    background:#831238;
+    border-color: #831238;
+}
+.school:hover a{
+    color: white;
+}
+.upload-view{
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    right:20px;
+}
+.upload-view button{
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #831238;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #831238;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.dept{
+    width: fit-content;
+    margin-top: -20px;
+    border: none;
+    color: #831238;
+    font-size: 18px;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+.school:hover .dept{
+color: white;
+cursor: pointer;
+}
+.actions-container{
+    position: fixed;
+    right: 20px;
+    margin-right: 20px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+}
+.act-btn{
+    width: 100%;
+    height: 60px;
+    gap: 20px;
+    margin: 20px;
+    margin-right: 20px;
+    font-size:16px ;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: none;
+    border: none;
+    outline: none;
+    background-color: lightblue ;
+    border-radius: 10px;
+}
